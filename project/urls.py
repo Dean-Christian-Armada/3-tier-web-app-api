@@ -20,5 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^my-app/', include('my_app.urls')),
     url(r'^my-app-2/', include('my_app_2.urls')),
-    url(r'^my-app-3/', include('my_app_3.urls')),
+    # url(r'^my-app-3/', include('my_app_3.urls')),
 ]
